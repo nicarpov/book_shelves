@@ -1,0 +1,87 @@
+.container {
+  background-color: bisque;
+  max-width: 70%;
+  padding: 0px;
+  margin: auto;
+}
+.shelf{
+    border-bottom: 20px rgb(77, 56, 13) solid;
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+.box {
+  margin-right: 0px;
+  box-sizing: border-box;
+  width: 100px;
+  height: 520px;
+  border: 2px rgb(77, 56, 13, 0) solid;
+  padding: 3px;
+  border-radius: 5px;
+  transform-origin: bottom left;
+  transform: rotate(-5deg);
+  background-color: rgba(60, 71, 43);
+  
+}
+
+.box:first-child{
+    margin-left:15px;
+}
+.box:hover{
+    border: 2px rgba(61, 250, 250, 0.698) solid;
+    padding: 3px;
+}
+.book-info{
+    /* transform: rotate(-90deg); */
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-info .author,.year,.name{
+  box-sizing: border-box;
+  margin: 10% 0;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+.author{
+  background-color: sienna;
+}
+.name{
+  background-color:rgba(0, 139, 139, 0.627);
+}
+.year{
+  background-color: rgb(49, 58, 35);
+}
+h1{
+    margin: 0px;
+    font-size: 16px;
+    /* max-width: min-content; */
+    /* hyphens: manual;
+     */
+    overflow-wrap: break-word;
+}
+
+
+.header h1{
+  background-color: floralwhite;
+    font-size: 60px;
+    text-align: center;
+}
+
+.add {
+  border: 2px dashed gray;
+  background-color: rgba(0,0,0,0);
+  padding: 3px
+}
+
+.add:hover{
+  border: 2px rgba(61, 250, 250, 0.698) solid;
+  padding: 3px
+  
+}
